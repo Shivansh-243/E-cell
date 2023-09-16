@@ -1,3 +1,4 @@
+/* NavBar css */
 .navBar {
   background-color: rgba(255, 255, 255, 1);
   overflow: hidden;
@@ -52,12 +53,7 @@
   }
 }
 
-*/
-/* Font Inter */
-/* Weight 400 */
-/* Size 18px */
-/* Line height 21.78px */
-a {
+*/ a {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   size: 18px;
@@ -70,13 +66,7 @@ hr {
   border: 0;
   box-shadow: 0 6px 6px -6px rgba(0, 0, 0, 0.25) inset;
 }
-/* width: 1203px
-height: 385px
-top: 104px
-left: 119px
-border-radius: 15px
-border: 1px
- */
+/* Rectangle css */
 .rectangle {
   display: flex;
   width: 1203px;
@@ -86,7 +76,7 @@ border: 1px
   border-radius: 15px;
   border: 1px;
 }
-
+/* 3 boxes css */
 .box {
   display: flex;
   text-align: center;
@@ -134,6 +124,9 @@ border: 1px
 .square {
   width: 100px;
   height: 100px;
-  background-color: blue;
+  background: rgba(0, 64, 122, 1);
   border-radius: 5px;
+}
+#b22 {
+  background: rgba(122, 0, 0, 1);
 }
