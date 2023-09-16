@@ -1,7 +1,9 @@
 /* NavBar css */
 .navBar {
   background-color: rgba(255, 255, 255, 1);
-  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 .navBar a {
   float: right;
@@ -18,11 +20,6 @@
   color: black;
 }
 
-.navBar a.active {
-  background-color: #04aa6d;
-  color: white;
-}
-
 .navBar .icon {
   display: none;
 }
@@ -33,6 +30,9 @@
   }
   .navBar a.icon {
     float: right;
+    display: block;
+  }
+  .navBar {
     display: block;
   }
 }
@@ -125,6 +125,7 @@ hr {
   width: 100px;
   height: 100px;
   background: rgba(0, 64, 122, 1);
+
   border-radius: 5px;
 }
 #b22 {
