@@ -106,10 +106,6 @@ img {
   display: block;
   margin: 0 auto;
 }
-.parentGrid {
-  display: flex;
-  width: auto;
-}
 
 .container {
   display: flex;
