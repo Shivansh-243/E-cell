@@ -1,10 +1,58 @@
 .navBar {
   background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
 }
-.linkbar {
-  margin-left: 85%;
-  padding: 3px;
+.navBar a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
+
+.navBar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navBar a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.navBar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 393px) {
+  .navBar a:not(first-child) {
+    display: none;
+  }
+  .navBar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .navBar.responsive {
+    position: relative;
+  }
+  .navBar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navBar.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}
+
+*/
 /* Font Inter */
 /* Weight 400 */
 /* Size 18px */
@@ -42,7 +90,7 @@ border: 1px
 .box {
   display: flex;
   text-align: center;
-  width: 385px;
+  width: 33.3333333%;
   height: 385px;
   padding: 1px;
   border: 1px solid #000000;
@@ -55,19 +103,13 @@ border: 1px
 .d1 {
   background: linear-gradient(135.38deg, #3300ff 0%, #fa00ff 98.32%);
   box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin-right: 12px;
+  margin-right: 20px;
 }
 .d2 {
   border: 4px;
-  margin-right: 12px;
+  margin-right: 16px;
 }
-/* .d3 {
-  width: 385px;
-  height: 385px;
-  margin-right: 0px;
-  top: 104px;
-  left: 937px; 
-} */
+
 .parentGrid {
   display: flex;
   width: auto;
