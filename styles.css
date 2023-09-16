@@ -1,4 +1,7 @@
 /* NavBar css */
+* {
+  margin: 0;
+}
 .navBar {
   background-color: rgba(255, 255, 255, 1);
   display: flex;
@@ -134,6 +137,7 @@ img {
   background: rgba(122, 0, 0, 1);
 }
 
+/* tablet view responsiveness css */
 @media screen and (max-width: 744px) {
   .d1 {
     min-width: 100%;
@@ -145,5 +149,43 @@ img {
   }
   .d2 {
     display: block;
+  }
+}
+
+/* mobile view responsiveness css */
+@media screen and (max-width: 393px) {
+  .rectangle {
+    margin-top: 8px;
+    max-width: 250px;
+    height: 775px;
+  }
+  .d1,
+  .d2,
+  .d3 {
+    min-width: 250px;
+    height: 250px;
+    transform: scaleX(-1);
+    filter: FlipH;
+    transform: scaleY(-1);
+    filter: FlipV;
+    margin-bottom: 10%;
+  }
+  .navBar {
+    min-height: 55px;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .d1 {
+    margin: 0px;
+  }
+  .d2 {
+    display: block;
+  }
+  .rectangle {
+    transform: scaleX(-1);
+    filter: FlipH;
+    transform: scaleY(-1);
+    filter: FlipV;
   }
 }
