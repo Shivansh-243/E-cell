@@ -53,7 +53,7 @@
   }
 }
 
-*/ a {
+a {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   size: 18px;
@@ -69,46 +69,46 @@ hr {
 /* Rectangle css */
 .rectangle {
   display: flex;
-  width: 1203px;
-  height: 385px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 1203px;
   margin-top: 60px;
-  margin-left: 119px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 15px;
-  border: 1px;
-}
-/* 3 boxes css */
-.box {
-  display: flex;
-  text-align: center;
-  width: 33.3333333%;
-  height: 385px;
-  padding: 1px;
-  border: 1px solid #000000;
-  border-radius: 15px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.gridD3 {
-  padding: 2px;
+.box {
+  border-radius: 15px;
+  flex: 1;
+  margin: 5px;
 }
+
 .d1 {
+  min-width: calc(33.333% - 10px);
   background: linear-gradient(135.38deg, #3300ff 0%, #fa00ff 98.32%);
   box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin-right: 20px;
-}
-.d2 {
-  border: 4px;
-  margin-right: 16px;
 }
 
+.d2,
+.d3 {
+  min-width: calc(33.333% - 10px);
+}
+img {
+  max-width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
 .parentGrid {
   display: flex;
   width: auto;
 }
 
 .container {
-  width: 385px;
-  height: 385px;
-  margin-right: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -116,18 +116,34 @@ hr {
 }
 
 .grid {
+  width: 75%;
+  height: 75%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
 }
 
 .square {
-  width: 100px;
-  height: 100px;
+  padding: 10px;
+  text-align: center;
   background: rgba(0, 64, 122, 1);
 
-  border-radius: 5px;
+  border-radius: 15px;
 }
 #b22 {
   background: rgba(122, 0, 0, 1);
+}
+
+@media screen and (max-width: 744px) {
+  .d1 {
+    min-width: 100%;
+    height: 385px;
+  }
+  .d2,
+  .d3 {
+    min-width: calc(50% - 10px);
+  }
+  .d2 {
+    display: block;
+  }
 }
