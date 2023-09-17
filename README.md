@@ -2,7 +2,13 @@
 This project is made under E-cell, MNNIT Allahabad
 
 All the functionalites are added using HTML, CSS, JavaScript only
-In this there are grids 
+In this in the navigation bar 
+  1. on clicking Home the profile page will open
+  2. on clicking grid the ssame page rerender
+  3. on clicking LinkedIn, LinkedIn profile will open
+
+In profile page
+  on clicking on the Insta handler, Instagram profile page will open 
 
 Advanced Task---->
   1. Responsive page.
