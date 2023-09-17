@@ -26,3 +26,7 @@ Smart phone view--->
   ![image](https://github.com/Shivansh-243/E-cell/assets/125989942/2547f070-e296-4cd5-93e9-b89a772a724c)
 
 
+  ![image](https://github.com/Shivansh-243/E-cell/assets/125989942/6cdd18f7-89c7-4df2-9bd6-ec819baa4dc1)
+
+
+
