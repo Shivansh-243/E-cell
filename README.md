@@ -19,20 +19,24 @@ Advanced Task---->
 Navigation links --> 1.LinkedIn
                     2.GitHub Profile
 
-Laptop view--->
+1.Laptop view--->
           
 
   ![image](https://github.com/Shivansh-243/E-cell/assets/125989942/8cbed1f1-252e-487e-9d7e-e11ba189fa25)
 
-Tablet View--->
+2.Tablet View--->
 
   ![image](https://github.com/Shivansh-243/E-cell/assets/125989942/fba1ef14-a59a-46df-ac05-5e776860ada2)
 
-Smart phone view--->
+3.Smart phone view--->
   ![image](https://github.com/Shivansh-243/E-cell/assets/125989942/2547f070-e296-4cd5-93e9-b89a772a724c)
 
 
   ![image](https://github.com/Shivansh-243/E-cell/assets/125989942/6cdd18f7-89c7-4df2-9bd6-ec819baa4dc1)
+
+4.Profile Page--->
+  ![image](https://github.com/Shivansh-243/E-cell/assets/125989942/8bf4c134-56a2-40eb-8b63-3d0e898245b4)
+
 
 
 
